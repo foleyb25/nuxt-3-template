@@ -40,4 +40,8 @@ npm run preview
 ```
 
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
-# nuxt-3-template
+
+## Setup Includes
+
+* Tailwind
+* scss
