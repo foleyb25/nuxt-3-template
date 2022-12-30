@@ -1,0 +1,8 @@
+//scss base template
+
+.scss-style {
+    background-color: $primary;
+    color: $secondary;
+    height: minus(100, 50px) // calling defined minus funciton in _utilities.scss
+}
+

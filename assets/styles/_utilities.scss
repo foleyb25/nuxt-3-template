@@ -1,0 +1,16 @@
+// assets/style/variables.scss
+$primary: #49240F;
+$secondary: #E4A79D;
+
+// assets/style/mixins.scss
+@mixin center-item {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+// assets/style/functions.scss
+@function minus($param1, $param2) {
+    @return $param1 - $param2
+}
+

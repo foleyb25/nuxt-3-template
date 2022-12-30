@@ -1,0 +1,4 @@
+/*Template required for tailwind import. You can put additional css in here */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
