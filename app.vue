@@ -41,7 +41,7 @@ useHead({
 </script>
 
 
-<style scoped>
+<style>
 /* Transitions for all NuxtPages */
 .page-enter-active,
 .page-leave-active {
