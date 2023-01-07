@@ -1,0 +1,5 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <rect x="20" y="20" width="160" height="160" fill="#00C853" />
+  <rect x="40" y="40" width="120" height="120" fill="#00BFA5" />
+  <text x="145" y="5" text-anchor="middle" fill="#FFCA28" font-size="20" font-weight="bold" font-family="Arial, sans-serif" transform="rotate(45)">Nuxt Template</text>
+</svg>
