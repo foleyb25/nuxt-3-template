@@ -37,7 +37,10 @@ useHead({
 
 
 <style>
-/* Transitions for all NuxtPages */
+/* Transitions for all NuxtPages
+Configure the style naming inside of nuxt.config.ts
+*/
+
 .page-enter-active,
 .page-leave-active {
   transition: all 0.4s;

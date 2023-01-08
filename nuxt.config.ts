@@ -38,7 +38,11 @@ export default defineNuxtConfig({
 
   //define meta data for SEO and layout transition for cool animation
   app: {
-    layoutTransition: { name: 'layout', mode: 'out-in' },
+    // Enable page animations
+    pageTransition: { name: 'page', mode: 'out-in' },
+    // Enable layout animations
+    // layoutTransition: { name: 'layout', mode: 'out-in' },
+
     head: {
       charset: 'utf-16',
       viewport: 'width=500, initial-scale=1',
