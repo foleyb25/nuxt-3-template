@@ -1,7 +1,7 @@
 <template>
    <footer class="px-4 py-3 bg-gray-800 text-gray-300 flex justify-between">
       <div class="w-1/4">
-        <img src="/nuxt_template_logo.svg" alt="Logo" class="w-32 h-32 rounded-full">
+        <img src="~/assets/images/nuxt_template_logo.svg" alt="Logo" class="w-32 h-32 rounded-full">
       </div>
       <div class="w-1/4">
         <div class="border-b border-gray-700 mb-4 pb-4">

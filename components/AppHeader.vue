@@ -2,7 +2,7 @@
     <header>
       <nav class="flex items-center justify-between px-4 py-3 bg-gray-800">
         <div class="flex items-center">
-          <img src="/nuxt_template_logo.svg" alt="Logo" class="w-24 h-24 rounded-full">
+          <img src="~/assets/images/nuxt_template_logo.svg" alt="Logo" class="w-24 h-24 rounded-full">
           <span class="text-xl font-semibold text-white ml-2"></span>
         </div>
         <ul class="flex">
