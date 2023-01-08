@@ -2,9 +2,9 @@
 
 Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
-The project structure is take directly from the [Nuxt 3 guide](https://nuxt.com/docs/guide/directory-structure/nuxt) and this template streamlines the set up process.
+The project structure is taken directly from the [Nuxt 3 guide](https://nuxt.com/docs/guide/directory-structure/nuxt) and this template streamlines the set up process.
 
-There is additional documentation inside the .vue files
+There is additional documentation in the project files (.vue,.js,.ts)
 
 ![Image of Nuxt Template Project Structure](/github_assets/main_screen.png?raw=true "Project Structure")
 
@@ -19,7 +19,7 @@ npm install
 
 ## Add .env File
 
-Add in the following content as an example
+Add in the following content. As an example:
 ```
 TEST_KEY=
 ```
