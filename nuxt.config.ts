@@ -41,8 +41,14 @@ export default defineNuxtConfig({
       ]
     }
   },
+
+  //Pull your .env variables here. to use in application call - {testKey} = useRuntimeConfig()
+  //To expose variables to browser put keys inside of public
   runtimeConfig: {
-    testKey: process.env.TEST_KEY
+    testKey: process.env.TEST_KEY,
+    public: {
+
+    }
   }
     
 })
