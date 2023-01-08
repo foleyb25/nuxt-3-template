@@ -6,7 +6,7 @@
       <Meta name="description" :content="title" />
       <Style type="text/css" children=""></Style>
     </Head>
-    <NuxtLayout name="default">
+    <NuxtLayout>
       <NuxtPage class="h-screen flex flex-col justify-center items-center"/>
     </NuxtLayout>
     
@@ -16,11 +16,6 @@
 <script setup>
 
 const title = ref("Nuxt Template")
-
-definePageMeta({ //This isn't needed but gives you an idea as to how you can use a custom layout or additional layouts
-  layout: "default",
-  // title: "Nuxt Template"  Meta tags can also be set in definePageMeta()
-})
 
 //Reactive Meta
 //usehead() gives you ability to define meta tags on specific pages like a single blog post :og tags

@@ -8,6 +8,15 @@
 
 const {id} = useRoute().params
 
+
+definePageMeta({
+  middleware: ["auth"],
+  // or middleware: 'auth'
+
+  //   layout: "customLayout",   define custom layout and use follwoing tage <NuxtLayout name="customLayout">
+  // title: "Nuxt Template"  Meta tags can also be set in definePageMeta()
+})
+
 //make a fetch to an API. This url will not work
 const uri = 'https://templateNuxt.com/products/' + id
 //  fetch the dummyObjject

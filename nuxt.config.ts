@@ -5,10 +5,15 @@
 export default defineNuxtConfig({
 
   // You can also import tailwind with modules and @nuxtjs/tailwindcss dev dependency
-  // modules: [
+  modules: [
+    '@nuxt/content'
   //   '@nuxtjs/tailwindcss'
-  // ],
+  ],
+  content: {
+    // https://content.nuxtjs.org/api/configuration
+  },
 
+  //Configure scss with vite
   vite: {
       css: {
         preprocessorOptions: {
@@ -19,13 +24,19 @@ export default defineNuxtConfig({
         }
       }
     },
+
+  //configure css files
   css: ['~/assets/styles/main.css', '~/assets/styles/main.scss'],
+
+  //configure tailwind postcss
   postcss: {
       plugins: {
           tailwindcss: {},
           autoprefixer: {},
       },
   },
+
+  //define meta data for SEO and layout transition for cool animation
   app: {
     layoutTransition: { name: 'layout', mode: 'out-in' },
     head: {
